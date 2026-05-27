@@ -6,6 +6,29 @@
 
 ![alt text](img/bloque1_ejercicio1_img1.png)
 
+### b) Usando la herramienta gráfica de administración usada en la parte grupal de la práctica 1 o SQL Developer y usando una conexión TNS (no básica) si tu aplicación trabaja con ORACLE, crea una tabla o una colección profesores con los campos DNI y Nombre e introduce los siguientes datos:
+
+```
+DNI	Nombre
+28888888	Raúl Ruiz Padilla
+27777777	Rafael Luengo Sanz
+```
+
+![alt text](img/bloque1_ejercicio1_img2.png)
+
+![alt text](img/bloque1_ejercicio1_img3.png)
+
+![alt text](img/bloque1_ejercicio1_img4.png)
+
+![alt text](img/bloque1_ejercicio1_img5.png)
+
+![alt text](img/bloque1_ejercicio1_img6.png)
+
+![alt text](img/bloque1_ejercicio1_img7.png)
+
+![alt text](img/bloque1_ejercicio1_img8.png)
+
+
 # Bloque II. SQL y PL/SQL
 
 ## 1.- Realiza una consulta SQL que muestre los nombres de los trabajadores que tienen tareas sin terminar en más de un proyecto (1,5 puntos)
