@@ -28,6 +28,20 @@ DNI	Nombre
 
 ![alt text](img/bloque1_ejercicio1_img8.png)
 
+## 2. Para este ejercicio necesitarás tener en una BD ORACLE llamada GNREC, en el esquema RAUL la tabla profesores antes creada y en una BD Postgres llamada GNREC2 en otra máquina la siguiente tabla Asignaturas:
+
+Nombre	DNI Profesor
+ASO	28888888
+ABD	27777777
+
+### a) Debes realizar una consulta desde un cliente ORACLE que muestre el nombre de las asignaturas y el del profesor que las imparte usando una interconexión entre ambos servidores. (2,5 p)
+
+
+### b) Debes realizar una consulta desde un cliente Postgres que muestre el nombre de las asignaturas y el del profesor que las imparte usando una interconexión entre ambos servidores. (2,5 puntos)
+
+![alt text](img/bloque1_ejercicio2_img3.png)
+
+
 
 # Bloque II. SQL y PL/SQL
 
