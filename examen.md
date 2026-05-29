@@ -39,6 +39,8 @@ ABD	27777777
 
 ### b) Debes realizar una consulta desde un cliente Postgres que muestre el nombre de las asignaturas y el del profesor que las imparte usando una interconexión entre ambos servidores. (2,5 puntos)
 
+![alt text](img/bloque1_ejercicio2_img2.png)
+
 ![alt text](img/bloque1_ejercicio2_img3.png)
 
 
@@ -72,3 +74,88 @@ where tp.terminada = 's' and t.numdias = (
 ```
 
 ![alt text](img/bloque2_ejercicio2_img2.png)
+
+# Bloque III. Usuarios y Almacenamiento.
+
+# Bloque IV. Auditoría, movimiento de datos y copias de seguridad
+
+## 1. (1,5 puntos) Crea una colección en MongoDB y audita exclusivamente las modificaciones de documentos que se produzcan en la misma. Demuestra el funcionamiento.
+
+![alt text](img/bloque4_ejercicio1_img1.png)
+
+![alt text](img/bloque4_ejercicio2_img2.png)
+
+![alt text](img/bloque4_ejercicio2_img3.png)
+
+![alt text](img/bloque4_ejercicio1_img4.png)
+
+## 2. (2,5 puntos) Crea una tabla en MariaDB con un campo cadena de caracteres, otro númerico sin decimales, otro númerico con tres decimales y otro de tipo fecha. Inserta algunos registros en ella. Exporta dicha tabla como un fichero de texto usando un guión como delimitador. Carga dichos datos en una tabla ORACLE usando SQL*Loader.
+
+```sql
+CREATE TABLE tabla_examen_recuperacion (
+    cadena VARCHAR(50),
+    entero INT,
+    decimal_tres DECIMAL(10,3),
+    fecha DATE
+);
+
+
+INSERT INTO tabla_examen_recuperacion (cadena, entero, decimal_tres, fecha) VALUES 
+('examen a', 10, 123.456, '2023-05-10'),
+('examen b', 25, 987.654, '2023-08-22'),
+('examen c', 42, 0.123, '2024-01-15');
+```
+
+![alt text](img/bloque4_ejercicio2_img1.png)
+
+```sql
+SELECT * FROM tabla_examen_recuperacion
+INTO OUTFILE '/tmp/datos_exportados_examen_recuperacion.txt'
+FIELDS TERMINATED BY '-'
+LINES TERMINATED BY '\n';
+```
+
+![alt text](img/bloque4_ejercicio2_img2.png)
+
+```bash
+cat /home/user/datos_exportados_examen_recuperacion.txt
+```
+
+![alt text](img/bloque4_ejercicio2_img3.png)
+
+```sql
+CREATE TABLE tabla_examen_recuperacion (
+    cadena VARCHAR2(50),
+    entero NUMBER(10,0),
+    decimal_tres NUMBER(10,3),
+    fecha DATE
+);
+```
+
+![alt text](img/bloque4_ejercicio2_img4.png)
+
+```bash
+# control.ctl
+LOAD DATA
+INFILE 'datos_exportados_examen_recuperacion.txt'
+INTO TABLE tabla_examen_recuperacion
+FIELDS TERMINATED BY '-'
+TRAILING NULLCOLS
+(
+  cadena,
+  entero,
+  decimal_tres,
+  fecha DATE "YYYY-MM-DD"
+)
+```
+
+![alt text](img/bloque4_ejercicio2_img5.png)
+
+```bash
+sqlldr userid=C##RAUL/asang04@GNREC control=control.ctl
+```
+
+![alt text](img/bloque4_ejercicio2_img6.png)
+
+
+![alt text](img/bloque4_ejercicio2_img7.png)
