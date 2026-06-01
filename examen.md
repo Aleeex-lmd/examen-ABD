@@ -77,6 +77,47 @@ where tp.terminada = 's' and t.numdias = (
 
 # Bloque III. Usuarios y Almacenamiento.
 
+## 1. (2 puntos) Crea una base de datos llamada Examen en Postgres con una tabla llamada Prueba1 con dos registros y otra llamada Prueba2 sin registros.
+
+Crea ahora un usuario en Postgres con las siguientes características:
+
+    • Podrá consultar las tablas existentes en la base de datos Examen e insertar registros en la tabla Prueba2 pero solo podrá leer Prueba1.
+    • No podrá crear tablas nuevas en la base de datos Examen, pero sí vistas.
+    • Su contraseña deberá ser cambiada cuando entre por primera vez en el sistema.
+    • No podrá saber las bases de datos existentes en el gestor de bases de datos.
+    • Podrá crear funciones y procedimientos.
+
+![alt text](img/bloque3_ejercicio1_img1.png)
+
+![alt text](img/bloque3_ejercicio1_img2.png)
+
+![alt text](img/bloque3_ejercicio1_img3.png)
+
+![alt text](img/bloque3_ejercicio1_img4.png)
+
+![alt text](img/bloque3_ejercicio1_img5.png)
+
+![alt text](img/bloque3_ejercicio1_img6.png)
+
+-- falta el de la contraseña
+
+![alt text](img/bloque3_ejercicio1_img10.png)
+
+![alt text](img/bloque3_ejercicio1_img11.png)
+
+![alt text](img/bloque3_ejercicio1_img11.png)
+
+## 3. (1,5 puntos) Crea tres usuarios en MongoDB.
+Crea dos colecciones Examen1 y Examen2 con dos documentos cada una con los atributos que desees.
+El primer usuario podrá acceder a la colección Examen1 pero solo para añadir documentos.
+El segundo podrá acceder solo Examen2 y solo para modificar los documentos.
+El tercer usuario tendrá acceso a las dos colecciones para leer documentos. 
+
+## 4. (2 puntos) Realiza una función de verificación de contraseña para ORACLE que solo permita contraseñas sin mayúsculas ni números pero de una longitud mínima superior al doble de la longitud del nombre de ese usuario. Además, la contraseña no puede coincidir con el nombre de ningún usuario, vista o tabla ya existente en la base de datos. Crea un usuario y realiza las capturas necesarias para demostrar el correcto funcionamiento de la función.
+
+## 5. (1,5 puntos) Crea un índice de búsqueda de texto (son los que permiten localizar una cadena en un documento rápidamente) sobre una colección en MongoDB. Añade algunos documentos a la colección y demuestra que el índice está creado y funcionando.
+
+
 # Bloque IV. Auditoría, movimiento de datos y copias de seguridad
 
 ## 1. (1,5 puntos) Crea una colección en MongoDB y audita exclusivamente las modificaciones de documentos que se produzcan en la misma. Demuestra el funcionamiento.
