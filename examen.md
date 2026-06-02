@@ -169,9 +169,9 @@ El tercer usuario tendrá acceso a las dos colecciones para leer documentos.
 
 ![alt text](img/bloque4_ejercicio1_img1.png)
 
-![alt text](img/bloque4_ejercicio2_img2.png)
+![alt text](img/bloque4_ejercicio1_img2.png)
 
-![alt text](img/bloque4_ejercicio2_img3.png)
+![alt text](img/bloque4_ejercicio1_img3.png)
 
 ![alt text](img/bloque4_ejercicio1_img4.png)
 
