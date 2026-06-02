@@ -113,10 +113,55 @@ El primer usuario podrá acceder a la colección Examen1 pero solo para añadir 
 El segundo podrá acceder solo Examen2 y solo para modificar los documentos.
 El tercer usuario tendrá acceso a las dos colecciones para leer documentos. 
 
+![alt text](img/bloque3_ejercicio3_img1.png)
+
+![alt text](img/bloque3_ejercicio3_img2.png)
+
+![alt text](img/bloque3_ejercicio3_img3.png)
+
+![alt text](img/bloque3_ejercicio3_img4.png)
+
+![alt text](img/bloque3_ejercicio3_img5.png)
+
+![alt text](img/bloque3_ejercicio3_img6.png)
+
+![alt text](img/bloque3_ejercicio3_img7.png)
+
+![alt text](img/bloque3_ejercicio3_img8.png)
+
+
 ## 4. (2 puntos) Realiza una función de verificación de contraseña para ORACLE que solo permita contraseñas sin mayúsculas ni números pero de una longitud mínima superior al doble de la longitud del nombre de ese usuario. Además, la contraseña no puede coincidir con el nombre de ningún usuario, vista o tabla ya existente en la base de datos. Crea un usuario y realiza las capturas necesarias para demostrar el correcto funcionamiento de la función.
+
+![alt text](img/bloque3_ejercicio4_img1.png)
+
+![alt text](img/bloque3_ejercicio4_img2.png)
+
+![alt text](img/bloque3_ejercicio4_img3.png)
+
+![alt text](img/bloque3_ejercicio4_img4.png)
+
+![alt text](img/bloque3_ejercicio4_img5.png)
+
+![alt text](img/bloque3_ejercicio4_img6.png)
+
+![alt text](img/bloque3_ejercicio4_img7.png)
+
+![alt text](img/bloque3_ejercicio4_img8.png)
+
+![alt text](img/bloque3_ejercicio4_img9.png)
+
+![alt text](img/bloque3_ejercicio4_img10.png)
+
+
+
 
 ## 5. (1,5 puntos) Crea un índice de búsqueda de texto (son los que permiten localizar una cadena en un documento rápidamente) sobre una colección en MongoDB. Añade algunos documentos a la colección y demuestra que el índice está creado y funcionando.
 
+![alt text](img/bloque3_ejercicio5_img1.png)
+
+![alt text](img/bloque3_ejercicio5_img2.png)
+
+![alt text](img/bloque3_ejercicio5_img3.png)
 
 # Bloque IV. Auditoría, movimiento de datos y copias de seguridad
 
