@@ -245,3 +245,44 @@ sqlldr userid=C##RAUL/asang04@GNREC control=control.ctl
 
 
 ![alt text](img/bloque4_ejercicio2_img7.png)
+
+
+## 4. Realiza una copia de seguridad física en caliente con RMAN de tu base de datos ORACLE completa.
+
+![alt text](img/bloque5_ejercicio4_img1.png)
+
+![alt text](img/bloque5_ejercicio4_img2.png)
+
+![alt text](img/bloque5_ejercicio4_img3.png)
+
+### a) Borra un fichero de datos de un tablespace e intenta recuperar la instancia a partir de la copia anterior. (1 punto)
+
+![alt text](img/bloque5_ejercicio4_img4.png)
+
+![alt text](img/bloque5_ejercicio4_img5.png)
+
+![alt text](img/bloque5_ejercicio4_img6.png)
+
+![alt text](img/bloque5_ejercicio4_img7.png)
+
+## b) Borra un fichero de control e intenta recuperar la instancia a partir de la copia anterior. (1 punto)
+
+![alt text](img/bloque5_ejercicio4_img8.png)
+
+![alt text](img/bloque5_ejercicio4_img9.png)
+
+![alt text](img/bloque5_ejercicio4_img10.png)
+
+![alt text](img/bloque5_ejercicio4_img11.png)
+
+![alt text](img/bloque5_ejercicio4_img12.png)
+
+## c) Borra el diccionario de datos e intenta recuperar la instancia a partir de la copia anterior. (2 puntos)
+
+![alt text](img/bloque5_ejercicio4_img13.png)
+
+![alt text](img/bloque5_ejercicio4_img14.png)
+
+![alt text](img/bloque5_ejercicio4_img15.png)
+
+![alt text](img/bloque5_ejercicio4_img16.png)
