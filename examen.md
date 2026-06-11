@@ -157,11 +157,12 @@ El tercer usuario tendrá acceso a las dos colecciones para leer documentos.
 
 ## 5. (1,5 puntos) Crea un índice de búsqueda de texto (son los que permiten localizar una cadena en un documento rápidamente) sobre una colección en MongoDB. Añade algunos documentos a la colección y demuestra que el índice está creado y funcionando.
 
-![alt text](img/bloque3_ejercicio5_img1.png)
+![alt text](image.png)
 
-![alt text](img/bloque3_ejercicio5_img2.png)
+![alt text](image-1.png)
 
-![alt text](img/bloque3_ejercicio5_img3.png)
+![alt text](image-2.png)
+
 
 # Bloque IV. Auditoría, movimiento de datos y copias de seguridad
 
